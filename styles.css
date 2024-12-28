@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    display: flex;
+    background: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 120px;
+    background: linear-gradient(95deg, red, rgb(255, 234, 0));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 90px;
+}
+
+.text {
+    background: white;
+    border: 2px solid transparent;
+    width: 420px;
+    height: 42px;
+    border-radius: 30px;
+    padding: 16px;
+    font-size: 18px;
+    outline: none;
+}
+
+.output {
+    font-size: 18px;
+    font-family: monospace;
+}
+@media (max-width : 560px) {
+    h1{
+        font-size: 38px;
+    }
+    .text{
+        width: 280px;
+        font-size: 12px
+    }
+}
