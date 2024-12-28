@@ -14,7 +14,7 @@ A simple and interactive **Letter Counter** application built using **HTML**, **
 
 ## Preview 👀
 
-![Letter Counter App Screenshot](path/to/your/screenshot.png)
+![Letter Counter App Screenshot](screenshot.png)
 
 ---
 
